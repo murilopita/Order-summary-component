@@ -29,6 +29,8 @@ main{
     background-color: white;
     max-width: 400px;
     border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
 
@@ -139,7 +141,22 @@ main section #cancel:hover{
 }
 
 
+@media (max-width: 320px) {
 
+    main{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    section .plan-option {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    section .plan-option a{
+        margin-top: 1rem;
+    }
+    }
 
 
     
